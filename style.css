@@ -560,6 +560,9 @@ h5,
     margin-left: -35px;
 
 }
+.followContent h1:hover{
+    text-decoration: underline;
+}
 footer{
     margin-top: 810px;
     margin-left: -90px;
