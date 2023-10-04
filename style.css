@@ -1,0 +1,626 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mukta', sans-serif;
+}
+
+.logo a {
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    width: 100%;
+    overflow: hidden;
+}
+
+/* ==============================================left page started ====================================  */
+.leftPage {
+    width: 28%;
+    position: fixed;
+
+
+}
+
+.leftPage {
+    display: inline-block;
+    border: none;
+    padding: 0rem 5rem;
+    border-right: 1px solid #e5f4ff;
+
+}
+
+.leftPage ul {
+    list-style: none;
+    display: block;
+    margin-left: 50px;
+}
+
+.leftPage ul li a {
+    display: inline-block;
+    text-decoration: none;
+    height: 3rem;
+    color: black;
+    font-size: 1.4rem;
+    padding: 8px 20px;
+    transition: all 0.3s;
+
+}
+
+.leftPage ul li a:hover {
+    border-radius: 40px;
+    background-color: rgb(221, 219, 219);
+
+}
+
+.leftPage ul li a:focus {
+    font-weight: bolder;
+}
+
+.leftPage ul li a i {
+    margin-right: 15px;
+    font-size: 22px;
+}
+
+.post {
+    margin-top: 5px;
+}
+
+.post h3 {
+    background: rgb(37, 157, 255);
+    padding: 10px 120px;
+    border-radius: 40px;
+    color: white;
+    text-align: center;
+    transition: all 0.4s ease-in-out;
+}
+
+.post a {
+    color: white;
+    text-decoration: none;
+    margin-left: -15px;
+
+}
+
+.post h3:hover {
+    background: rgb(26, 141, 235);
+    cursor: pointer;
+}
+
+.userProfile a {
+    text-decoration: none;
+    color: black;
+}
+
+.profile {
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    width: 250px;
+    margin-top: 90px;
+    border-radius: 40px;
+    transition: all 0.4s;
+}
+
+.profile:hover {
+    background-color: rgb(221, 219, 219);
+   
+}
+
+.profile-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+    border: 4px solid #3498db;
+}
+
+.profile-name {
+    font-size: 17px;
+    margin-left: -10px;
+ 
+
+}
+.profile-name i{
+    color: gray;
+    margin-left: 10px;
+}
+
+.profile-username {
+    color: #555;
+    font-size: 16px;
+    margin-left: -10px ;
+    margin-top: -5px;
+}
+
+/* ==================================================left page completed =====================================  */
+
+/* =================++++++++++++++++++++++++middle page started=====================================  */
+.middlePage {
+    display: inline-block;
+    border: none;
+    padding: 0rem 9rem;
+    width: 38%;
+    margin-left: 450px;
+    border-right: 1px solid rgb(208, 207, 207);
+    border-bottom: 1px solid #c5bfbf44;
+    background-color: rgba(255, 241, 241, 0.264);
+}
+
+.containers {
+    width: 550px;
+    margin-left: -130px;
+    margin-top: 40px;
+}
+
+.middlePage h2 {
+    margin-left: 15px;
+    display: flex;
+    position: fixed;
+
+}
+
+.middlePage .followed {
+    position: fixed;
+    width: 600px;
+    align-items: flex-start;
+    background-color: #fff8;
+    margin-left: -170px;
+    margin-bottom: 100px;
+    height: 100px;
+    border-bottom: 1px solid rgb(228, 227, 227);
+    z-index: 3;
+    -webkit-backdrop-filter: blur(18px);
+    -o-backdrop-filter: blur(18px);
+    -moz-backdrop-filter: blur(18px);
+    backdrop-filter: blur(18px);
+}
+
+
+.middlePage h2 a {
+    text-decoration: none;
+    color: #000;
+}
+
+.middlePage ul {
+    margin-left: -170px;
+    width: 800px;
+    margin-top: 50px;
+    display: flex;
+    position: fixed;
+
+}
+.middlePage ul .firstT{
+    width:300px;
+    text-align: center;
+    margin-left: 175px;
+    padding: 8px 0px;
+    transition: all 0.4s;
+}
+.middlePage ul .firstT:hover{
+    background-color: rgb(221, 219, 219);
+}
+.middlePage ul .firstT a{
+    padding: 5px;
+}
+
+.middlePage ul .secondT{
+    text-align: center;
+    width:300px;
+    margin-left:-1px;
+    height: 50px;
+    padding: 8px 0px;
+    transition: all 0.4s;
+}
+.middlePage ul .secondT:hover{
+    background-color: rgb(221, 219, 219);
+}
+.middlePage ul .secondT a{
+    padding: 5px;
+}
+.middlePage ul li {
+    list-style: none;
+    display: inline-block;
+   margin-left: 300px;
+
+}
+
+.middlePage ul li a {
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    color: #000;
+    
+
+}
+
+.middlePage ul li a:focus {
+
+    border-bottom: 4px solid rgb(18, 149, 249);
+}
+
+.middleImg .search-container {
+    display: flex;
+    align-items: center;
+    width: 570px;
+    border: none;
+    border-radius: 25px;
+    margin-left: -155px;
+    margin-top: 95px;
+    outline: none;
+    height: 200px;
+    background-color: #fff;
+   
+}
+
+.middleImg .search-container:focus-within {
+    border: none;
+    outline: none;
+}
+
+.middleImg a img {
+    margin-top: -100px;
+    color: #66757f;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    transition: all 0.2s ease-in;
+    margin-left: -220px;
+}
+
+.middleImg .search-container:focus-within img {
+    background-color: #000;
+    border: 1px solid red;
+    margin-top: -100px;
+   
+}
+
+.middleImg .search-input {
+    flex: 1;
+    padding: 7px;
+    border: none;
+    background: none;
+    font-size: 23px;
+    line-height: 60%;
+    outline: none;
+    margin-left: -160px;
+    margin-top: -35px;
+    transition: all 0.4s;
+}
+
+.middleImg .search-input:focus-within {
+    border: none;
+    outline: none;
+    margin-top: 40px;
+}
+
+.selectElement {
+    margin-top: -140px;
+    margin-left: 80px;
+    padding: 0 25px;
+    height: 26px;
+    border-radius: 30px;
+    border: 1px solid #919191;
+    background-color: #fff;
+    font-size: 17px;
+    color: #1997f8;
+    display: block;
+    cursor: pointer;
+    transition: all 0.5s;
+   
+}
+
+.selectElement:hover{
+    background-color:#1997f81a;
+}
+.iconsMiddle {
+    margin-top: -40px;
+    margin-left: 150px;
+}
+
+.iconsMiddle a {
+    margin-left: -60px;
+    text-align: center;
+    text-decoration: none;
+    color: #1997f8;
+
+
+}
+
+
+.iconsMiddle a:hover i {
+    background-color: #1997f87a;
+
+}
+
+.middleImg button {
+    padding: 4px 30px;
+    border-radius: 20px;
+    margin-top: 140px;
+    border: none;
+    cursor: pointer;
+    background-color: #1997f8c3;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+/* ==========================================middle page completed ============================ */
+
+/* ==================================================right page started========================================  */
+.rightPage {
+    display: table;
+    padding: 0rem 8rem;
+    width: 32%;
+    margin-left: 1050px;
+    margin-top: -1710px;
+    height: 1400px;
+
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    width: 340px;
+    background-color: #f5f8fa;
+    border: 1px solid #e1e8ed;
+    border-radius: 25px;
+    margin-left: -100px;
+    margin-top: 5px;
+    outline: none;
+}
+
+.search-container:focus-within {
+    border: 1px solid #209eff;
+    background-color: #fff;
+}
+
+.search-icon {
+    font-size: 18px;
+    margin-left: 10px;
+    color: #66757f;
+}
+
+.search-container:focus-within .search-icon {
+    color: #1997f8;
+}
+
+.search-input {
+    flex: 1;
+    padding: 7px;
+    border: none;
+    background: none;
+    font-size: 16px;
+    outline: none;
+    margin-left: 5px;
+
+}
+
+.contentTop {
+    width: 350px;
+    background-color: #f4f2f28f;
+    border-radius: 30px;
+    margin-top: 15px;
+    padding: 5px 30px;
+    margin-left: -100px;
+
+}
+
+.contentTop h2 {
+    color: black;
+    font-weight: bolder;
+
+}
+
+.contentTop span {
+    font-weight: bolder;
+    list-style: 15.5;
+}
+
+.contentTop button {
+    padding: 4px 19px;
+    margin: 10px 0px;
+    border-radius: 24px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.contentTop button:hover {
+    background-color: #090909;
+    cursor: pointer;
+}
+
+.whatsHappening {
+    height: 550px;
+    width: 350px;
+    background-color: #f4f2f28f;
+    border-radius: 30px;
+    margin-top: 15px;
+    padding: 5px 30px;
+    margin-left: -100px;
+}
+
+.whatsHappening a {
+    text-decoration: none;
+
+}
+
+.whatsHappening h3,
+h5,
+.spanTag {
+    margin-left: 30px;
+    line-height: 126%;
+}
+
+.whatsHappening h3 {
+    color: #000;
+
+}
+
+.whatsHappening h5,
+.spanTag {
+    color: #8d8c8c;
+    font-size: 15px;
+}
+
+.whatsHappening .contentRight {
+    width: 350px;
+    margin-left: -29px;
+    margin-bottom: 15px;
+}
+
+.whatsHappening .contentRight:hover {
+    background-color: #efeeee9f;
+    align-items: center;
+}
+
+.whatsHappening .shoreMore-Button {
+    border: none;
+    color: #1997f8;
+}
+
+.followContent {
+    height: 370px;
+    background-color: #000;
+    width: 350px;
+    background-color: #f4f2f28f;
+    border-radius: 30px;
+    margin-top: 15px;
+    padding: 5px 30px;
+    margin-left: -100px;
+    margin-bottom: -50rem;
+}
+
+.userProfileRight-side a {
+    text-decoration: none;
+    color: black;
+}
+
+.profile-right-side {
+    padding: 0px 10px;
+    display: flex;
+    align-items: center;
+    width: 350px;
+    margin-left: -29px;
+    margin-top: 10px;
+
+}
+
+.profile-right-side:hover {
+    background-color: #efeeee9f;
+}
+
+
+.profile-right-image {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+    /* border: 4px solid #3498db; */
+    background-color: black;
+
+}
+
+.profile-name-right-side {
+    font-size: 20px;
+    margin: 0;
+}
+
+.profile-right-side-username {
+    color: #555;
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.userProfileRight-side button {
+    padding: 3px 15px;
+    border-radius: 24px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.followContent .shoreMore-Button {
+    border: none;
+    color: #1997f8;
+    text-decoration: none;
+    padding: 20px;
+    margin-left: -35px;
+
+}
+footer{
+    margin-top: 810px;
+    margin-left: -90px;
+}
+footer a{
+    margin-left: 10px;
+    font-size: 13.4px;
+    color: #595959;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+
+/* ==========================================================================right page completed================  */
+
+
+@media (max-width: 1024px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .leftPage {
+        width: 100%;
+        padding: 1rem;
+        border-right: none;
+    }
+
+    .middlePage {
+        width: 100%;
+        padding: 1rem;
+        margin-left: 0;
+    }
+
+    .rightPage {
+        width: 100%;
+        padding: 1rem;
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 1024px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .leftPage,
+    .middlePage,
+    .rightPage {
+        width: 100%;
+        padding: 10px;
+        border-right: none;
+    }
+
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 498px) {
+    /* Adjust styles for even smaller screens */
+}
